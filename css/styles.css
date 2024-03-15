@@ -235,9 +235,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
 }
-/* .icon-antena{
-padding-left: 100px;
-} */
+
 .sections-two-p{
     font-weight: 400;
     font-size: 16px;
@@ -260,9 +258,7 @@ padding-left: 100px;
     color: var(--navy-blue);
 margin-bottom: 72px;
 }
-.klasssss{
-    padding: 32px 0;
-}
+
 .team-list{
     font-style: normal;
     display: flex;
