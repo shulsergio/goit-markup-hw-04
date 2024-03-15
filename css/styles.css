@@ -271,6 +271,9 @@ margin-bottom: 72px;
     justify-content: center;
 
 }           
+.team-media-group{
+padding: 32px 0;
+}
 .team-list-li{
 border-radius: 0 0 4px 4px;
 /* padding: 32px 0; */
