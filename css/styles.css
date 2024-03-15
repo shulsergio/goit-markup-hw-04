@@ -249,11 +249,11 @@ margin-bottom: 8px;
 /* -- sec 3 */
 .section-three{
     background-color: #F4F4FD;
-        padding: 32px 0;
+        /* padding: 32px 0; */
 }
-/* .container-three{
+.container-three{
     padding: 32px 0;
-} */
+}
 .section-three-header {
     font-weight: 700;
     font-size: 36px;
