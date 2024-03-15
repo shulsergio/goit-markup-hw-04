@@ -260,7 +260,9 @@ padding-left: 100px;
     color: var(--navy-blue);
 margin-bottom: 72px;
 }
-
+.klasssss{
+    padding: 32px 0;
+}
 .team-list{
     font-style: normal;
     display: flex;
@@ -371,14 +373,21 @@ margin-bottom: 72px;
     }
 .portfolio-list-li{
     width: calc((100% - 48px) / 3);
+        transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .portfolio-list-item{
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
     border-top: none;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+}
+.portfolio-list-li:hover,
+.portfolio-list-li:focus{
+        box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
+        0 1px 1px 0 rgba(46, 47, 66, 0.16),
+        0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
 }
+
 .portfolio-list-header{
 color: var(--navy-blue);
 font-weight: 500;
