@@ -147,19 +147,18 @@ gap: 40px;
 /* -sec 1- */
 
 .section-one {
-padding: 0;
-}
-
-.sec-hero{
-    /* max-width: 1440px; */
             max-width: 1440px;
                 /* background-color: rgba(46, 47, 66, 0.7); */
                 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-min.jpg);
                 background-repeat: no-repeat;
-                background-position: center center;
+                background-position: center;
                 background-size: cover;
                 padding: 188px 0;
 }
+
+/* .sec-hero{
+    max-width: 1440px;
+} */
 
 .hero-header-name{
     color: #FFFFFF;
