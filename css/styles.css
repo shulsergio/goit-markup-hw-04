@@ -221,7 +221,10 @@ margin: 0 auto 48px;
     width: 264px;
     height: 112px;
     background: #f4f4fd;
-    margin-bottom: 8px;        
+    margin-bottom: 8px;       
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .sections-two-headers{
