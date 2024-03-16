@@ -88,7 +88,7 @@ color: var(--navy-blue);
 .header-nav{
     display: flex;
     gap: 40px;
-    padding: 24px 0;
+    /* padding: 24px 0; */
 }
 .header-nav-li{
 font-style: 16px;
@@ -146,6 +146,7 @@ gap: 40px;
 /* -sec 1- */
 
 .section-one {
+
     max-width: 1440px;
     /* background-color: rgba(46, 47, 66, 0.7); */
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office-min.jpg);
@@ -171,7 +172,6 @@ margin: 0 auto 48px;
 }
 
 .button-order{
-
     display: flex;
     cursor: pointer;
     background-color: var(--iris);
@@ -309,7 +309,7 @@ text-align: center;
 }
 
 .team-media {
-    padding-left: 16px;
+    /* padding-left: 16px; */
     display: flex;
     gap: 24px;
         justify-content: center;
@@ -336,10 +336,9 @@ text-align: center;
 background-color: #404bbf;
 }
 
-
 .team-media-svg {
-    width: 24px;
-    height: 24px;
+    width: 16px;
+    height: 16px;
     fill: var(--icons);
 }
 
@@ -408,7 +407,8 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
         0 1px 6px 0 rgba(46, 47, 66, 0.08);
 
 }
-.portfolio-list-form:hover .overlay{
+/* .portfolio-list-form:hover .overlay { */
+.portfolio-list-li:hover .overlay{
     transform: translateY(0);
 }
 .portfolio-list-header{
@@ -417,7 +417,7 @@ font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-margin-bottom: 8px
+margin-bottom: 8px;
 }
 .portfolio-list-p{
     font-weight: 400;
